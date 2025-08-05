@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
  <%@ taglib prefix="s" uri="/struts-tags"%>
  <!DOCTYPE html>
  <html>
@@ -7,10 +7,10 @@
  <title>ログイン画面</title>
   </head>
   <body>
-  <s:formaction="LoginAction"	>
- <s:textfield name="name"/>
+  <s:form action="LoginAction"	>
+ <s:text field name="name"/>
  <s:password name="password"/>
  <s:submit value="ログイン"/>
  </s:form>	
  </body>
- </html>
+ </html>	
