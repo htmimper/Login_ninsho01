@@ -2,7 +2,7 @@
  <%@ taglib prefix="s" uri="/struts-tags"%>
  <!DOCTYPEhtml>
  <html>
- <head> 
+ <head>
  <meta charset="utf-8">
  <title>ログイン失敗画面</title>
  </head>
