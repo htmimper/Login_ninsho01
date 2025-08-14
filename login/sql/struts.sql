@@ -5,7 +5,7 @@ create database logindb_hayakawa;
 use logindb_hayakawa;
 create table user(
 id int,
-user_namevarchar(255),
+user_name varchar(255),
 password varchar(255)
 );
 
